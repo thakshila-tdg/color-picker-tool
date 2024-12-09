@@ -1,0 +1,59 @@
+
+    body{
+       
+        background-image: url('pngtree-rainbow-curves-abstract-colorful-background-image_2164067.jpg'); /* Replace with your image path */
+   background-size: cover; /* Ensures the image covers the entire background */
+   background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+   
+    
+input {
+    height: 120px; /* Set input height */
+    width: 400px; /* Set input width */
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #ffffff, inset 5px 5px 12px rgba(0, 0, 0, 0.16);
+    border: none;
+    border-radius: 30px;
+    color: rgba(70, 70, 70);
+    font-size: 50px;
+    text-align: center; /* Center text inside the input */
+    margin: 0 auto; /* Center horizontally if margin is needed */
+    padding: 20px;
+    outline: none;
+    transition: all 0.3s ease; /* Add smooth effects */
+}
+
+/* Variations */
+
+/* Input hover effect */
+input:hover {
+    box-shadow: -5px -5px 12px #ffffff, 5px 5px 12px rgba(0, 0, 0, 0.2);
+    background-color: #f8f9fa;
+}
+
+/* Focus effect */
+input:focus {
+    outline: 2px solid #3a86ff;
+    box-shadow: 0 0 10px rgba(58, 134, 255, 0.6);
+}
+
+/* Disabled input */
+input:disabled {
+    background-color: #dcdde1;
+    color: #7f8c8d;
+    cursor: not-allowed;
+}
+
+/* Small variation */
+input.small {
+    height: 40px;
+    font-size: 20px;
+    width: 200px;
+}
+
+/* Large variation */
+input.large {
+    height: 90px;
+    font-size: 60px;
+    width: 300px;
+}
